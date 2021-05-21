@@ -38,7 +38,10 @@
         android:id="@+id/gpuimageview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/details"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
         android:scaleType="fitStart"
         app:gpuimage_show_loading="false"
         app:gpuimage_surface_type="texture_view" />
@@ -46,13 +49,14 @@
     <LinearLayout
         android:id="@+id/details"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="28dp"
         android:layout_above="@+id/bottom_info_view"
-        android:layout_alignParentEnd="false"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
         android:background="#bb7700"
         android:orientation="vertical"
+        android:visibility="invisible"
         android:weightSum="100">
 
         <!--
@@ -73,7 +77,8 @@
             android:background="#EAEAEA"
             android:max="100"
             android:progress="50"
-            android:scaleType="fitStart" />
+            android:scaleType="fitStart"
+            android:visibility="invisible" />
 
         <TextView
             android:id="@+id/text"
@@ -88,23 +93,24 @@
             android:textStyle="bold" />
 
 
-
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/bottom_info_view"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="39dp"
 
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="10dp"
         android:background="#513400"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:visibility="invisible">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:visibility="invisible">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -112,7 +118,8 @@
                 android:gravity="center"
                 android:text="Threads"
                 android:textAlignment="center"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:visibility="invisible" />
 
             <NumberPicker
                 android:id="@+id/np"
@@ -120,7 +127,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:theme="@style/AppTheme.Picker"
-                android:visibility="visible" />
+                android:visibility="invisible" />
 
         </LinearLayout>
 
@@ -128,7 +135,8 @@
             android:id="@+id/modelLayout"
             android:layout_width="150dp"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:visibility="invisible">
 
             <TextView
                 android:id="@+id/textView"
@@ -136,12 +144,14 @@
                 android:layout_height="20dp"
                 android:text="@string/filterLabel"
                 android:textAlignment="center"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:visibility="invisible" />
 
             <ListView
                 android:id="@+id/model"
                 android:layout_width="match_parent"
-                android:layout_height="180dp">
+                android:layout_height="180dp"
+                android:visibility="invisible">
 
             </ListView>
         </LinearLayout>
@@ -150,7 +160,8 @@
             android:id="@+id/deviceLayout"
             android:layout_width="140dp"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:visibility="invisible">
 
             <TextView
                 android:id="@+id/textView2"
@@ -158,12 +169,14 @@
                 android:layout_height="20dp"
                 android:text="@string/deviceLabel"
                 android:textAlignment="center"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:visibility="invisible" />
 
             <ListView
                 android:id="@+id/device"
                 android:layout_width="match_parent"
-                android:layout_height="180dp" />
+                android:layout_height="180dp"
+                android:visibility="invisible" />
 
         </LinearLayout>
 

@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.quickbirdstudios:opencv:4.1.0@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../SDK/.gradle/caches/transforms-2/files-2.1/83e3b8f3b190f57d0fd4db1dc5801738/opencv-4.1.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../SDK/.gradle/caches/transforms-2/files-2.1/83e3b8f3b190f57d0fd4db1dc5801738/opencv-4.1.0/res" />
-      <root url="file://$PROJECT_DIR$/../../SDK/.gradle/caches/transforms-2/files-2.1/83e3b8f3b190f57d0fd4db1dc5801738/opencv-4.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6028104c720ae4c434f933f752e1452/opencv-4.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6028104c720ae4c434f933f752e1452/opencv-4.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6028104c720ae4c434f933f752e1452/opencv-4.1.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../SDK/.gradle/caches/modules-2/files-2.1/com.quickbirdstudios/opencv/4.1.0/9a6e842cd3ff120452032cf8a92a317b2e8a0b40/opencv-4.1.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.quickbirdstudios/opencv/4.1.0/9a6e842cd3ff120452032cf8a92a317b2e8a0b40/opencv-4.1.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

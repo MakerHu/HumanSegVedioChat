@@ -1,18 +1,18 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:design:25.2.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/../../SDK/.gradle/caches/transforms-2/files-2.1/481f6dd1f753e425581479b9921ce29b/design-25.2.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/46a406c905f913f1b3df1b04f57b609f/design-25.2.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../SDK/.gradle/caches/transforms-2/files-2.1/481f6dd1f753e425581479b9921ce29b/design-25.2.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../SDK/.gradle/caches/transforms-2/files-2.1/481f6dd1f753e425581479b9921ce29b/design-25.2.0/res" />
-      <root url="file://$PROJECT_DIR$/../../SDK/.gradle/caches/transforms-2/files-2.1/481f6dd1f753e425581479b9921ce29b/design-25.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/46a406c905f913f1b3df1b04f57b609f/design-25.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/46a406c905f913f1b3df1b04f57b609f/design-25.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/46a406c905f913f1b3df1b04f57b609f/design-25.2.0/res" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../SDK/.gradle/caches/modules-2/files-2.1/com.android.support/design/25.2.0/a8b9799c52698aa75743ef772c402ba381a5d7de/design-25.2.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/design/25.2.0/a8b9799c52698aa75743ef772c402ba381a5d7de/design-25.2.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../SDK/.gradle/caches/modules-2/files-2.1/com.android.support/design/25.2.0/5ed3c08e89af3924529463b397c4ec402ad828c/design-25.2.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/design/25.2.0/5ed3c08e89af3924529463b397c4ec402ad828c/design-25.2.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

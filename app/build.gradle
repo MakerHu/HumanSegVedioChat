@@ -64,5 +64,6 @@ dependencies {
     implementation 'jp.co.cyberagent.android:gpuimage:2.0.3'
     // Use local TensorFlow library
     // implementation 'org.tensorflow:tensorflow-lite-local:0.0.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar']) //hjhtest声网
 }
 

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SegMe_V2.iml" filepath="$PROJECT_DIR$/.idea/modules/SegMe_V2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SegMe_V2.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SegMe_V2.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HumanSeg.iml" filepath="$PROJECT_DIR$/.idea/modules/HumanSeg.iml" group="HumanSeg" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="HumanSeg/app" />
     </modules>
   </component>
 </project>

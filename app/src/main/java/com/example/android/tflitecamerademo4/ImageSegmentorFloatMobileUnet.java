@@ -151,8 +151,10 @@ public class ImageSegmentorFloatMobileUnet extends ImageSegmentor {
 
       mskmat.put(0,0,segmap[0]);
 
+      // 图像二值化，也就是将整个图像呈现出明显的只有黑和白的视觉效果
       Imgproc.threshold(mskmat,mskmat,Camera2BasicFragment.mskthresh/100.0,1.0,Imgproc.THRESH_TOZERO);
 
+      // 高斯平滑处理
       Imgproc.GaussianBlur(mskmat,mskmat,new Size(7,7),0);
       Core.pow(mskmat,2.0,mskmat);
 

@@ -19,4 +19,9 @@
     <color name="selection_highlight">#aaaaaa</color>
     <color name="selection_focus">#eeaa55</color>
     <color name="item_normal">#eeeeee</color>
+
+    ////////////////////////////////////////hjhtest声网
+    <color name="localBackground">#827b92</color>
+    <color name="remoteBackground">#484258</color>
+    ///////////////////////////////////////////////
 </resources>

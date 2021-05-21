@@ -15,11 +15,25 @@ limitations under the License.
 
 package com.example.android.tflitecamerademo4;
 
+import android.Manifest;
 import android.app.Activity;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.support.v13.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
+import android.view.SurfaceView;
+import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
 
 import org.opencv.android.OpenCVLoader;
+
+import io.agora.rtc.IRtcEngineEventHandler;
+import io.agora.rtc.RtcEngine;
+import io.agora.rtc.video.VideoCanvas;
+
+import io.agora.rtc.video.VideoEncoderConfiguration;
+
 
 /** Main {@code Activity} class for the Camera app. */
 public class CameraActivity extends Activity {
@@ -41,4 +55,7 @@ public class CameraActivity extends Activity {
       Log.d("OpenCv", "OpenCV loaded");
 
   }
+
+
+
 }

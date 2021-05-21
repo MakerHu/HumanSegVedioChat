@@ -35,6 +35,7 @@ import org.tensorflow.lite.Interpreter;
 import org.tensorflow.lite.gpu.GpuDelegate;
 import org.tensorflow.lite.nnapi.NnApiDelegate;
 /**
+ * 分割算法
  * Segments images with Tensorflow Lite.
  */
 public abstract class ImageSegmentor {
@@ -204,6 +205,7 @@ public abstract class ImageSegmentor {
       return;
     }
     imgData.rewind();
+    // 把bitmap的像素都存在intValues
     bitmap.getPixels(intValues, 0, bitmap.getWidth(), 0, 0, bitmap.getWidth(), bitmap.getHeight());
     // Convert the image to floating point.
     int pixel = 0;
