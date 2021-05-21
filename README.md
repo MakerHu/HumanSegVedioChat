@@ -1,4 +1,5 @@
 # 视频融合客户端（已实现融合但无法传语音）
+**若无法连接服务器可能是ip地址的问题**
 # TF Lite Android Image Classifier App Example
 
 A simple Android example that demonstrates image classification using the camera.
