@@ -1,3 +1,4 @@
+# 视频融合客户端（已实现融合但无法传语音）
 # TF Lite Android Image Classifier App Example
 
 A simple Android example that demonstrates image classification using the camera.
